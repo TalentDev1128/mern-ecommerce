@@ -17,18 +17,6 @@ An ecommerce store built with MERN stack, and utilizes third party API's. This e
   * Redux to manage application's state
   * Redux Thunk middleware to handle asynchronous redux actions
 
-
-## What's Next 
-
-  * Add a payment method solution to enable checkout and collecting payments
-  * Associate each Merchant to a payment account 
-
-## Demo
-
-This application is deployed on Heroku. Please check it out :smile: [here](https://mern-store-80202.herokuapp.com/).
-
-See admin dashboard [demo](https://mernstore-bucket.s3.us-east-2.amazonaws.com/admin.mp4)
-
 ## Install
 
 Some basic Git commands are:
@@ -53,13 +41,6 @@ $ npm install
   * AWS_ACCESS_KEY_ID & AWS_SECRET_ACCESS_KEY & AWS_REGION & AWS_BUCKET_NAME => AWS configuration
 ```
 
-## Heroku Deployment
-
-```
-> Create a Procfile in the root directory of your application with the following command **web: npm run start:production**
-```
-
-
 ## Simple build for production
 
 ```
@@ -77,19 +58,6 @@ $ npm start
 ```
 $ npm run start:production
 ```
-
-## Languages & tools
-
-- [Node](https://nodejs.org/en/)
-
-- [Express](https://expressjs.com/)
-
-- [Mongoose](https://mongoosejs.com/)
-
-- [React](https://reactjs.org/)
-
-- [Webpack](https://webpack.js.org/)
-
 
 ### Code Formatter
 
